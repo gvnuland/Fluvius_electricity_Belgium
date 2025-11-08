@@ -2,7 +2,7 @@ DOMAIN = "fluvius_electricity_belgium"
 PLATFORMS = ["sensor"]
 
 DEFAULT_NAME = "Fluvius Electricity"
-DEFAULT_UPDATE_INTERVAL = 300  # seconds (5 minutes)
+DEFAULT_UPDATE_INTERVAL = 1800  # seconds (30 minutes)
 
 CONF_METER_ID = "meter_id"
 CONF_EAN = "ean"
@@ -15,7 +15,7 @@ CONF_TIME_WINDOW_HOURS = "time_window_hours"
 
 # Defaults
 DEFAULT_GRANULARITY = "1"  # '1' = 15 minutes by convention used in examples
-DEFAULT_TIME_WINDOW_HOURS = 24  # last 24 hours
+DEFAULT_TIME_WINDOW_HOURS = 48  # last 48 hours
 
 # Friendly granularity choices displayed to user (keys are sent to API)
 GRANULARITY_CHOICES = {
@@ -23,4 +23,5 @@ GRANULARITY_CHOICES = {
     "2": "30 minutes",
     "3": "Daily (per day)",
 }
+
 
