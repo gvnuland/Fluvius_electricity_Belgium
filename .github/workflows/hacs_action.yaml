@@ -1,4 +1,4 @@
-name: Validate
+name: HACS action
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 permissions: {}
 
 jobs:
-  validate-hacs:
+  hacs:
     runs-on: "ubuntu-latest"
     steps:
       - name: HACS validation
