@@ -2,7 +2,8 @@
   "domain": "fluvius_electricity_belgium",
   "name": "Fluvius Electricity Belgium",
   "version": "1.0",
-  "documentation": "https://github.com/sander110419/Fluvius_API",
+  "documentation": "https://github.com/gvnuland/Fluvius_electricity_Belgium",
+  "issue_tracker": "https://github.com/gvnuland/Fluvius_electricity_Belgium/issues",
   "dependencies": [],
   "codeowners": ["@gvnuland"],
   "requirements": [
