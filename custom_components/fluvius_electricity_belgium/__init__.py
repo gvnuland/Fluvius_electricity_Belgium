@@ -1,4 +1,3 @@
-﻿"""Fluvius Electricity Belgium integration with non-persistent token, configurable granularity and time window."""
 from __future__ import annotations
 
 import logging
@@ -303,3 +302,4 @@ def _fetch_bearer_token_sync(username: str, password: str, timeout: int = 60) ->
                 driver.quit()
         except Exception:
             pass
+
