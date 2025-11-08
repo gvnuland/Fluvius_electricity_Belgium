@@ -1,0 +1,16 @@
+﻿{
+  "domain": "fluvius_electricity_belgium",
+  "name": "Fluvius Electricity Belgium",
+  "version": "1.3.0",
+  "documentation": "https://github.com/sander110419/Fluvius_API",
+  "dependencies": [],
+  "codeowners": ["@gvnuland"],
+  "requirements": [
+    "selenium>=4.0.0",
+    "selenium-wire>=5.0.0",
+    "beautifulsoup4>=4.9.0",
+    "requests>=2.0.0"
+  ],
+  "iot_class": "cloud_polling",
+  "homeassistant": "2023.11.0"
+}
