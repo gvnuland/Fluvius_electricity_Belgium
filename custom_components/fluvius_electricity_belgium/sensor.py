@@ -1,4 +1,3 @@
-﻿"""Sensor platform for Fluvius Electricity Belgium integration with consumption, injection and net sensors."""
 from __future__ import annotations
 
 from homeassistant.components.sensor import SensorEntity, SensorDeviceClass, SensorStateClass
@@ -143,3 +142,4 @@ class FluviusNetSensor(FluviusBaseEnergySensor):
         except Exception as err:
             _LOGGER.debug("Error parsing Fluvius net data: %s", err)
             return None
+
