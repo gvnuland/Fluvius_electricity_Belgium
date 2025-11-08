@@ -1,5 +1,3 @@
-﻿"""Constants for the Fluvius Electricity Belgium integration."""
-
 DOMAIN = "fluvius_electricity_belgium"
 PLATFORMS = ["sensor"]
 
@@ -25,3 +23,4 @@ GRANULARITY_CHOICES = {
     "2": "30 minutes",
     "3": "Daily (per day)",
 }
+
