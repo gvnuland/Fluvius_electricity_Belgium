@@ -1,9 +1,3 @@
-﻿"""Config flow and Options flow for Fluvius Electricity Belgium integration.
-
-This version requires username/password to be stored and validates credentials before creating/updating the entry.
-The bearer token used for validation is NOT persisted; it's only used to validate during the flow and cached
-in memory by the running integration instance.
-"""
 from __future__ import annotations
 
 import voluptuous as vol
@@ -149,3 +143,4 @@ class FluviusConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             CONF_TIME_WINDOW_HOURS: int(time_window),
         }
         return self.async_create_entry(title=title, data=data)
+
