@@ -1,17 +1,16 @@
 {
   "domain": "fluvius_electricity_belgium",
   "name": "Fluvius Electricity Belgium",
-  "version": "1.0",
-  "documentation": "https://github.com/gvnuland/Fluvius_electricity_Belgium",
-  "issue_tracker": "https://github.com/gvnuland/Fluvius_electricity_Belgium/issues",
-  "dependencies": [],
   "codeowners": ["@gvnuland"],
+  "dependencies": [],
+  "documentation": "https://github.com/gvnuland/Fluvius_electricity_Belgium",
+  "iot_class": "cloud_polling"
+  "issue_tracker": "https://github.com/gvnuland/Fluvius_electricity_Belgium/issues",
   "requirements": [
     "selenium>=4.0.0",
     "selenium-wire>=5.0.0",
     "beautifulsoup4>=4.9.0",
     "requests>=2.0.0"
   ],
-  "iot_class": "cloud_polling"
+  "version": "1.0",
 }
-
