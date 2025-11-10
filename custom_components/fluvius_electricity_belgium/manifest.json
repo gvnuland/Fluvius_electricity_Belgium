@@ -2,6 +2,7 @@
   "domain": "fluvius_electricity_belgium",
   "name": "Fluvius Electricity Belgium",
   "codeowners": ["@gvnuland"],
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/gvnuland/Fluvius_electricity_Belgium",
   "iot_class": "cloud_polling",
@@ -14,4 +15,5 @@
   ],
   "version": "1.0"
 }
+
 
