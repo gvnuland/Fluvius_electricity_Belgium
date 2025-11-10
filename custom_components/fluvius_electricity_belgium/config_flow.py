@@ -91,7 +91,7 @@ async def _validate_token(hass, token: str, ean: str, api_base: str) -> bool:
         return False
 
 
-class FluviusConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+class fluvius_electricity_belgiumConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Handle the initial config flow for Fluvius."""
 
     VERSION = 6
@@ -140,3 +140,4 @@ class FluviusConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             CONF_TIME_WINDOW_HOURS: int(time_window),
         }
         return self.async_create_entry(title=title, data=data)
+
